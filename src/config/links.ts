@@ -6,7 +6,7 @@
  * site, is an environment change instead of a find-and-replace across commands.
  */
 
-const DEFAULT_SITE_URL = "https://aegisdeno.fly.dev";
+const DEFAULT_SITE_URL = "https://aegis-bot-live.fly.dev";
 const DEFAULT_SUPPORT_URL = "https://discord.gg/HwTbCYC4PM";
 
 /** Accept only http(s) URLs; anything malformed falls back instead of shipping a broken button. */

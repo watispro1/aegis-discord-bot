@@ -162,18 +162,18 @@ Key permission delegations across the streamlined role tiers:
 Every channel serves a single dedicated operational function. Below is the full specification and deep operational description for each channel across all server categories, followed by paste-ready **Channel Topics** (strictly plain text, under Discord's 1024-character limit).
 
 Official links referenced across channel topics:
-- Website: https://aegisdeno.fly.dev/
-- Status: https://aegisdeno.fly.dev/status
-- Features: https://aegisdeno.fly.dev/features
-- Commands: https://aegisdeno.fly.dev/commands
-- Docs: https://aegisdeno.fly.dev/docs
-- Dashboard: https://aegisdeno.fly.dev/dashboard
-- Changelog: https://aegisdeno.fly.dev/changelog
-- Invite: https://aegisdeno.fly.dev/invite
-- Why Aegis: https://aegisdeno.fly.dev/why
-- Roadmap: https://aegisdeno.fly.dev/roadmap
-- Security: https://aegisdeno.fly.dev/security
-- Terms and Privacy: https://aegisdeno.fly.dev/terms and https://aegisdeno.fly.dev/privacy
+- Website: https://aegis-bot-live.fly.dev/
+- Status: https://aegis-bot-live.fly.dev/status
+- Features: https://aegis-bot-live.fly.dev/features
+- Commands: https://aegis-bot-live.fly.dev/commands
+- Docs: https://aegis-bot-live.fly.dev/docs
+- Dashboard: https://aegis-bot-live.fly.dev/dashboard
+- Changelog: https://aegis-bot-live.fly.dev/changelog
+- Invite: https://aegis-bot-live.fly.dev/invite
+- Why Aegis: https://aegis-bot-live.fly.dev/why
+- Roadmap: https://aegis-bot-live.fly.dev/roadmap
+- Security: https://aegis-bot-live.fly.dev/security
+- Terms and Privacy: https://aegis-bot-live.fly.dev/terms and https://aegis-bot-live.fly.dev/privacy
 - Support server invite: https://discord.gg/HwTbCYC4PM
 - Source (proprietary, all rights reserved): https://github.com/watispro1/aegis-discord-bot
 
@@ -198,7 +198,7 @@ Official links referenced across channel topics:
 
 `#rules-and-info`
 ```text
-Read this first. Server rules, how warnings escalate (3 warnings -> 1h timeout, 5 warnings -> 24h timeout, 7 warnings -> ban; warnings expire after 30 days) and where to get help. Then verify in #verify. Full docs: https://aegisdeno.fly.dev/docs
+Read this first. Server rules, how warnings escalate (3 warnings -> 1h timeout, 5 warnings -> 24h timeout, 7 warnings -> ban; warnings expire after 30 days) and where to get help. Then verify in #verify. Full docs: https://aegis-bot-live.fly.dev/docs
 ```
 
 #### `#welcome` — Automated Member Greetings & Orientation
@@ -209,7 +209,7 @@ Read this first. Server rules, how warnings escalate (3 warnings -> 1h timeout, 
 
 `#welcome`
 ```text
-Welcome to Aegis Support & Community! Read #rules-and-info, then press Verify in #verify to unlock the server. New to Aegis? Start at https://aegisdeno.fly.dev/docs
+Welcome to Aegis Support & Community! Read #rules-and-info, then press Verify in #verify to unlock the server. New to Aegis? Start at https://aegis-bot-live.fly.dev/docs
 ```
 
 #### `#announcements` — Official Ecosystem Announcements
@@ -226,23 +226,23 @@ Major Aegis releases, events and server news. Want a ping? Pick Announcement Pin
 #### `#bot-updates` — Production Bot Releases & Changelogs
 - **Purpose & Scope:** Detailed engineering changelogs, feature additions, command deprecations, and dashboard revisions for every production Aegis release.
 - **Audience & Access:** Read-only for community members. Members opt into notifications by claiming the `@Bot Updates Ping` role in `#get-roles`.
-- **Aegis Integration:** Links directly to live release notes at `https://aegisdeno.fly.dev/changelog` and dashboard changelogs.
+- **Aegis Integration:** Links directly to live release notes at `https://aegis-bot-live.fly.dev/changelog` and dashboard changelogs.
 - **Staff Protocol:** Maintainers publish comprehensive release notes with code examples whenever new commands or subcommands are deployed to production.
 
 `#bot-updates`
 ```text
-Release notes for every Aegis version: new commands, changes and fixes. Full history: https://aegisdeno.fly.dev/changelog - Dashboard changes: https://aegisdeno.fly.dev/dashboard/changelog - Ping role: Bot Updates Ping in #get-roles.
+Release notes for every Aegis version: new commands, changes and fixes. Full history: https://aegis-bot-live.fly.dev/changelog - Dashboard changes: https://aegis-bot-live.fly.dev/dashboard/changelog - Ping role: Bot Updates Ping in #get-roles.
 ```
 
 #### `#status-and-incidents` — Infrastructure Health & Outage Alerts
 - **Purpose & Scope:** Authoritative status updates regarding API availability, database maintenance, Discord gateway latency, host incidents, and recovery notices.
 - **Audience & Access:** Read-only announcement channel. Pings the opt-in `@Outage / Status Ping` role for critical degradation or scheduled maintenance.
-- **Aegis Integration:** References the public telemetry dashboard at `https://aegisdeno.fly.dev/status`.
+- **Aegis Integration:** References the public telemetry dashboard at `https://aegis-bot-live.fly.dev/status`.
 - **Staff Protocol:** When an outage occurs, post immediate notification linking the status page. Post resolution notes ("All Clear") once metrics stabilize.
 
 `#status-and-incidents`
 ```text
-Outages, degraded service and planned maintenance, with an all-clear when it is fixed. Live component status and uptime: https://aegisdeno.fly.dev/status - Check there before reporting downtime. Ping role: Outage / Status Ping in #get-roles.
+Outages, degraded service and planned maintenance, with an all-clear when it is fixed. Live component status and uptime: https://aegis-bot-live.fly.dev/status - Check there before reporting downtime. Ping role: Outage / Status Ping in #get-roles.
 ```
 
 #### `#official-links` — Trusted Resource & Security Directory
@@ -253,7 +253,7 @@ Outages, degraded service and planned maintenance, with an all-clear when it is 
 
 `#official-links`
 ```text
-The only trusted Aegis links. Invite: https://aegisdeno.fly.dev/invite - Dashboard: https://aegisdeno.fly.dev/dashboard - Docs: https://aegisdeno.fly.dev/docs - Status: https://aegisdeno.fly.dev/status - Security: https://aegisdeno.fly.dev/security - Support server: https://discord.gg/HwTbCYC4PM - Source (for review, all rights reserved): https://github.com/watispro1/aegis-discord-bot - Anyone posting other "Aegis" links is not us.
+The only trusted Aegis links. Invite: https://aegis-bot-live.fly.dev/invite - Dashboard: https://aegis-bot-live.fly.dev/dashboard - Docs: https://aegis-bot-live.fly.dev/docs - Status: https://aegis-bot-live.fly.dev/status - Security: https://aegis-bot-live.fly.dev/security - Support server: https://discord.gg/HwTbCYC4PM - Source (for review, all rights reserved): https://github.com/watispro1/aegis-discord-bot - Anyone posting other "Aegis" links is not us.
 ```
 
 ---
@@ -317,7 +317,7 @@ General chat for the Aegis community. Be kind and stay safe for work. Feature qu
 
 `#bot-discussion`
 ```text
-Ask how Aegis works and share setup ideas. Try /help for any command, or browse https://aegisdeno.fly.dev/commands. Logs, tokens or account issues? Open a ticket in #create-ticket instead.
+Ask how Aegis works and share setup ideas. Try /help for any command, or browse https://aegis-bot-live.fly.dev/commands. Logs, tokens or account issues? Open a ticket in #create-ticket instead.
 ```
 
 #### `#showcase-setups` — Server Architecture & Configuration Showcases
@@ -415,18 +415,18 @@ Need private help? Press Create Ticket for a channel only you and staff can see.
 
 `#faq-quick-help`
 ```text
-Quick answers: missing slash commands, permissions Aegis needs, hidden channels, appeal codes, where transcripts go. Run /diagnostics in your server first. Full guide: https://aegisdeno.fly.dev/docs
+Quick answers: missing slash commands, permissions Aegis needs, hidden channels, appeal codes, where transcripts go. Run /diagnostics in your server first. Full guide: https://aegis-bot-live.fly.dev/docs
 ```
 
 #### `#self-hosting` — Forum: Docker, Fly.io, Node.js & MongoDB
 - **Purpose & Scope:** Structured forum channel dedicated to self-hosting inquiries, Docker container configurations, Fly.io deployments, MongoDB indexing, and environment variable tuning.
 - **Audience & Access:** Verified members can create forum posts. Tag selection is enforced to maintain organized searchability.
 - **Aegis Integration:** Monitored by automod. Auto-archives inactive threads after 7 days to keep the forum uncluttered.
-- **Staff Protocol:** Verify that self-hosters comply with proprietary license terms (`https://aegisdeno.fly.dev/terms#source`). Tag resolved threads with `Resolved` ✅.
+- **Staff Protocol:** Verify that self-hosters comply with proprietary license terms (`https://aegis-bot-live.fly.dev/terms#source`). Tag resolved threads with `Resolved` ✅.
 
 `#self-hosting`
 ```text
-Help running your own Aegis: Node.js, MongoDB, Docker, Fly.io and environment variables. Aegis is proprietary: running your own copy needs the maintainer's written permission first (https://aegisdeno.fly.dev/terms#source). One problem per post, pick a tag, include your error with secrets removed. Source and setup: https://github.com/watispro1/aegis-discord-bot
+Help running your own Aegis: Node.js, MongoDB, Docker, Fly.io and environment variables. Aegis is proprietary: running your own copy needs the maintainer's written permission first (https://aegis-bot-live.fly.dev/terms#source). One problem per post, pick a tag, include your error with secrets removed. Source and setup: https://github.com/watispro1/aegis-discord-bot
 ```
 
 #### `#api-and-dev-help` — Forum: REST Endpoints, Webhooks & Architecture
@@ -464,11 +464,11 @@ Suggest a feature with /suggest submit. One idea per suggestion; vote with the b
 - **Purpose & Scope:** Structured forum for reporting software anomalies, edge-case crashes, command validation failures, and dashboard UI glitches.
 - **Audience & Access:** Verified members can open threads. 10-second slowmode per thread. Tag requirement enforced.
 - **Aegis Integration:** Auto-sorts by newest. Monitored for automated error references.
-- **Staff Protocol:** Triage incoming bugs through lifecycle tags: `New` 🆕 -> `Investigating` 🔍 -> `Confirmed` ⚠️ -> `Fixed` ✅ (or `Not a Bug` ❌ / `Duplicate` 🚫). Critical vulnerabilities must be directed to `https://aegisdeno.fly.dev/security`.
+- **Staff Protocol:** Triage incoming bugs through lifecycle tags: `New` 🆕 -> `Investigating` 🔍 -> `Confirmed` ⚠️ -> `Fixed` ✅ (or `Not a Bug` ❌ / `Duplicate` 🚫). Critical vulnerabilities must be directed to `https://aegis-bot-live.fly.dev/security`.
 
 `#bug-reports`
 ```text
-Found a bug? One post each: what you did, what you expected, what happened, and the version from /about. Outages go to #status-and-incidents, security issues to https://aegisdeno.fly.dev/security
+Found a bug? One post each: what you did, what you expected, what happened, and the version from /about. Outages go to #status-and-incidents, security issues to https://aegis-bot-live.fly.dev/security
 ```
 
 ---
@@ -517,7 +517,7 @@ One post per member who DMs Aegis. Reply with /modmail reply, the Reply buttons,
 
 `#mod-logs`
 ```text
-Aegis audit log: warnings, timeouts, kicks, bans, mass bans, purges, case edits, join risk flags, message reports, Incident Mode steps and ModMail closes. Each entry links its case. Look a case up with /case view or on https://aegisdeno.fly.dev/dashboard
+Aegis audit log: warnings, timeouts, kicks, bans, mass bans, purges, case edits, join risk flags, message reports, Incident Mode steps and ModMail closes. Each entry links its case. Look a case up with /case view or on https://aegis-bot-live.fly.dev/dashboard
 ```
 
 #### `#staff-digest` — Weekly Operational Health & Moderation Summary
@@ -557,11 +557,11 @@ Transcripts of closed tickets, with who opened, claimed and closed each one. Sea
 - **Purpose & Scope:** Technical telemetry channel capturing host health alerts, production deployment notices, process restarts, and webhook error traces.
 - **Audience & Access:** Technical staff (`Lead Developer` and `Founder / Owner`).
 - **Aegis Integration:** Integrated with production host health hooks.
-- **Staff Protocol:** Cross-reference runtime warnings with the live public status page at `https://aegisdeno.fly.dev/status`.
+- **Staff Protocol:** Cross-reference runtime warnings with the live public status page at `https://aegis-bot-live.fly.dev/status`.
 
 `#bot-debug-logs`
 ```text
-Deploy notices and runtime errors for the production bot. Not for member reports. Live health: https://aegisdeno.fly.dev/status
+Deploy notices and runtime errors for the production bot. Not for member reports. Live health: https://aegis-bot-live.fly.dev/status
 ```
 
 ---
@@ -608,7 +608,7 @@ Voice channels do not have text topics. Configure each channel's **Status**:
 | Starboard copies | `#highlights` | 4 star reactions |
 | Suggestions and decisions | `#suggestions` | `/suggest submit`, `/suggest approve`, `/suggest deny` |
 | Welcome messages | `#welcome` | Member join |
-| Status notices | `#status-and-incidents` (staff) | Staff post with a link to https://aegisdeno.fly.dev/status |
+| Status notices | `#status-and-incidents` (staff) | Staff post with a link to https://aegis-bot-live.fly.dev/status |
 
 ---
 
@@ -696,11 +696,11 @@ Category-level permission inheritance:
 
 ## 7. Official Aegis Bot Setup & Integration
 
-Run these commands inside Discord to configure all native bot systems. All command options and choices match the live command catalog (`https://aegisdeno.fly.dev/commands`).
+Run these commands inside Discord to configure all native bot systems. All command options and choices match the live command catalog (`https://aegis-bot-live.fly.dev/commands`).
 
 ### 7.1 Setup Order
 
-1. **Invite Aegis** from `https://aegisdeno.fly.dev/invite` (`bot` and `applications.commands` scopes) and drag `Aegis Bot` above all roles it manages (§2).
+1. **Invite Aegis** from `https://aegis-bot-live.fly.dev/invite` (`bot` and `applications.commands` scopes) and drag `Aegis Bot` above all roles it manages (§2).
 2. **Run `/diagnostics`** and resolve any missing permissions. Required bitfield: `1460691659798`.
 3. **Audit Logging** (7.2), then **verification** and **role panels** (7.3–7.4).
 4. **Tickets, welcome, suggestions and starboard** (7.5–7.8).
@@ -1058,7 +1058,7 @@ Optional virtual economy for engagement testing in `#bot-playground-1`.
 - [ ] `/digest preview` renders, and `#staff-digest` is set as the digest channel.
 - [ ] `/incident start` on a test server slows and locks public channels, and `/incident end` restores them exactly.
 - [ ] `/trust user` shows a score with its factors for a test account.
-- [ ] Every channel topic from §5 is pasted, and `#status-and-incidents` links https://aegisdeno.fly.dev/status.
+- [ ] Every channel topic from §5 is pasted, and `#status-and-incidents` links https://aegis-bot-live.fly.dev/status.
 - [ ] Apps context menu "Report Message" delivers an audit notice to `#mod-logs`.
 - [ ] Member join with risk factors displays color-coded indicators in `#mod-logs`.
 - [ ] Invite, dashboard, docs, status, and changelog links in `#official-links` all resolve.

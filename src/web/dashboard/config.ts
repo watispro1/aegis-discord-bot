@@ -3,7 +3,7 @@
  * missing the dashboard is off: its routes show a "not configured" page and
  * nothing else on the site changes.
  */
-export const DEFAULT_REDIRECT_URI = "https://aegisdeno.fly.dev/dashboard/callback";
+export const DEFAULT_REDIRECT_URI = "https://aegis-bot-live.fly.dev/dashboard/callback";
 
 export interface DashboardConfig {
   clientId: string;

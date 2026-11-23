@@ -70,7 +70,7 @@ test("terms and privacy share the last-updated date and table of contents", () =
     assert.ok(html.includes('id="contact"'));
     assert.ok(html.includes("/issues"), "GitHub issues as a contact route");
     assert.ok(html.includes('href="/security"'));
-    assert.ok(!html.includes("aegisdeno.fly.dev\">") && !html.includes("support@aegisdeno.fly.dev"), "no invented inbox");
+    assert.ok(!html.includes("aegis-bot-live.fly.dev\">") && !html.includes("support@aegis-bot-live.fly.dev"), "no invented inbox");
     assert.ok(!html.includes("mailto:"), "no email link unless CONTACT_EMAIL is set");
   }
   const withEmail = renderPrivacy({ ...cfg, contactEmail: "privacy@example.com" });

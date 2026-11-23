@@ -113,7 +113,7 @@ export function trustReply(): string {
 
 export function incidentReply(): string {
   const summary = showcaseIncidentSummary().map(l => `<div>${esc(l)}</div>`).join("");
-  const content = `${SIREN}Incident Mode is on. Staff were alerted in the mod log (no pings).<br>Live timeline: <span class="dcx-link">aegisdeno.fly.dev/dashboard/…/incident</span>`;
+  const content = `${SIREN}Incident Mode is on. Staff were alerted in the mod log (no pings).<br>Live timeline: <span class="dcx-link">aegis-bot-live.fly.dev/dashboard/…/incident</span>`;
   const embed = `<div class="dc-embed dcx-embed red">
             <div class="dcx-title">${SIREN}Incident Mode is on</div>
             <div class="dcx-desc"><strong>Reason:</strong> Raid of brand-new accounts in #general<br>Ends <span class="dcx-ts">in an hour</span> (<span class="dcx-ts">21:20</span>) or with ${md("`/incident end`")}.</div>

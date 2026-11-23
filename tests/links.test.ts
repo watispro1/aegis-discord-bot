@@ -41,11 +41,11 @@ function withEnv(values: Partial<Record<(typeof ENV_KEYS)[number], string | unde
 
 test("links: defaults and SITE_URL override", () => {
   withEnv({ SITE_URL: undefined, SUPPORT_SERVER_URL: undefined, BOT_INVITE_URL: undefined }, () => {
-    assert.equal(siteBaseUrl(), "https://aegisdeno.fly.dev");
-    assert.equal(siteUrl(), "https://aegisdeno.fly.dev/");
-    assert.equal(docsUrl(), "https://aegisdeno.fly.dev/docs");
+    assert.equal(siteBaseUrl(), "https://aegis-bot-live.fly.dev");
+    assert.equal(siteUrl(), "https://aegis-bot-live.fly.dev/");
+    assert.equal(docsUrl(), "https://aegis-bot-live.fly.dev/docs");
     assert.equal(supportServerUrl(), "https://discord.gg/HwTbCYC4PM");
-    assert.equal(inviteUrl(), "https://aegisdeno.fly.dev/invite");
+    assert.equal(inviteUrl(), "https://aegis-bot-live.fly.dev/invite");
   });
 
   withEnv({ SITE_URL: "https://staging.example.com/", SUPPORT_SERVER_URL: "https://discord.gg/test" }, () => {
@@ -58,7 +58,7 @@ test("links: defaults and SITE_URL override", () => {
 
 test("links: malformed values fall back instead of producing broken buttons", () => {
   withEnv({ SITE_URL: "javascript:alert(1)", SUPPORT_SERVER_URL: "not a url" }, () => {
-    assert.equal(siteBaseUrl(), "https://aegisdeno.fly.dev");
+    assert.equal(siteBaseUrl(), "https://aegis-bot-live.fly.dev");
     assert.equal(supportServerUrl(), "https://discord.gg/HwTbCYC4PM");
   });
 });

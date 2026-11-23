@@ -14,7 +14,7 @@ pull request.
 - **Conduct.** Everyone taking part is expected to follow the
   [Code of Conduct](./CODE_OF_CONDUCT.md).
 - **Security problems** go through [`SECURITY.md`](./SECURITY.md) (also at
-  https://aegisdeno.fly.dev/security), never a public issue, pull request or the
+  https://aegis-bot-live.fly.dev/security), never a public issue, pull request or the
   support server.
 - **Questions** are welcome in the
   [support server](https://discord.gg/HwTbCYC4PM).

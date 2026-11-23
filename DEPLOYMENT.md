@@ -265,7 +265,7 @@ A `.env` file is read only when `NODE_ENV` is not `production`; the Docker image
 | `DISCORD_PREMIUM_SKU_ID`  | Optional | Discord Monetization Subscription SKU ID; required to sell and grant Premium |
 | `DISCORD_CLIENT_SECRET`   | Dashboard | OAuth2 client secret; the dashboard is off without it          |
 | `DASHBOARD_SESSION_SECRET`| Dashboard | Signs session cookies and CSRF tokens; 32+ characters          |
-| `DASHBOARD_REDIRECT_URI`  | Optional | OAuth2 redirect (default: `https://aegisdeno.fly.dev/dashboard/callback`) |
+| `DASHBOARD_REDIRECT_URI`  | Optional | OAuth2 redirect (default: `https://aegis-bot-live.fly.dev/dashboard/callback`) |
 | `RATE_LIMIT_STORE`        | Optional | Dashboard rate-limit counters: `memory` (default) or `mongo` (shared across instances) |
 | `TOPGG_TOKEN`             | Optional | Posts the server count to Top.gg every 30 minutes               |
 | `TOPGG_WEBHOOK_AUTH`      | Optional | Shared secret for the Top.gg vote webhook                       |
@@ -286,7 +286,7 @@ then every `/dashboard` page says "not configured" and nothing else changes.
 1. Open https://discord.com/developers/applications and pick the Aegis application.
 2. Go to **OAuth2**.
 3. Under **Redirects**, click **Add Redirect** and enter exactly:
-   `https://aegisdeno.fly.dev/dashboard/callback`
+   `https://aegis-bot-live.fly.dev/dashboard/callback`
    Then click **Save Changes**.
 4. On the same page, under **Client Secret**, click **Reset Secret** (or copy it if
    you have it) and keep it for the next step. Resetting invalidates the old one.
@@ -312,7 +312,7 @@ URL as a redirect in the portal. The two must match character for character.
 
 ### 3. Check it
 
-1. Open https://aegisdeno.fly.dev/dashboard. It should show **Log in with Discord**
+1. Open https://aegis-bot-live.fly.dev/dashboard. It should show **Log in with Discord**
    instead of "not configured".
 2. Log in. You should see the servers where you have Manage Server and Aegis is a
    member, and an **Add Aegis** link for servers you manage without it.
@@ -388,7 +388,7 @@ If you still have Stripe subscribers, keep these set:
 
 1. **Developers > API keys**: the Secret key (`sk_test_...`/`sk_live_...`) and Publishable key (`pk_test_...`/`pk_live_...`).
 2. **Product catalog**: the existing "Aegis Premium" price ID (`price_...`).
-3. **Developers > Webhooks**: the endpoint `https://aegisdeno.fly.dev/api/stripe/webhook` with events
+3. **Developers > Webhooks**: the endpoint `https://aegis-bot-live.fly.dev/api/stripe/webhook` with events
    `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted`,
    `customer.subscription.paused`, `customer.subscription.resumed`, `checkout.session.completed`,
    `invoice.payment_succeeded`, `invoice.payment_failed`, and its signing secret (`whsec_...`).

@@ -82,7 +82,7 @@ export function renderTerms(cfg: SiteConfig, offer: DiscordPremiumOffer | null =
     lead: "The rules for using the Aegis Discord bot, its web dashboard and this website, in plain language.",
     path: "/terms",
     metaTitle: "Terms of Service | Aegis",
-    description: "The terms for using the Aegis Discord bot, its web dashboard and the aegisdeno.fly.dev website.",
+    description: "The terms for using the Aegis Discord bot, its web dashboard and the aegis-bot-live.fly.dev website.",
     glance: [
       "Every Aegis feature is free. Aegis Premium is an optional subscription for a server that only raises a few limits and adds a badge; nothing free is locked behind it.",
       `${billingStatusHtml(onSale)} See <a href="#premium">Aegis Premium and payments</a>.`,

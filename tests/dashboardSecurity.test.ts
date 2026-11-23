@@ -57,10 +57,10 @@ test("CSRF tokens are bound to the session and secret", () => {
 });
 
 test("Origin check accepts our origin or none, refuses others", () => {
-  assert.ok(originAllowed(undefined, "https://aegisdeno.fly.dev"));
-  assert.ok(originAllowed("https://aegisdeno.fly.dev", "https://aegisdeno.fly.dev"));
-  assert.ok(!originAllowed("https://evil.example", "https://aegisdeno.fly.dev"));
-  assert.ok(!originAllowed("null", "https://aegisdeno.fly.dev"));
+  assert.ok(originAllowed(undefined, "https://aegis-bot-live.fly.dev"));
+  assert.ok(originAllowed("https://aegis-bot-live.fly.dev", "https://aegis-bot-live.fly.dev"));
+  assert.ok(!originAllowed("https://evil.example", "https://aegis-bot-live.fly.dev"));
+  assert.ok(!originAllowed("null", "https://aegis-bot-live.fly.dev"));
 });
 
 test("OAuth state must match, be signed, and be fresh", () => {
@@ -109,7 +109,7 @@ test("dashboard config is off unless every required value is present", () => {
   const cfg = readDashboardConfig(full);
   assert.ok(cfg);
   assert.equal(cfg.redirectUri, DEFAULT_REDIRECT_URI);
-  assert.equal(cfg.origin, "https://aegisdeno.fly.dev");
+  assert.equal(cfg.origin, "https://aegis-bot-live.fly.dev");
   assert.equal(cfg.secureCookies, true);
   assert.deepEqual(missingDashboardSettings(full), []);
 

@@ -228,4 +228,4 @@ Set `LOG_LEVEL=debug` in `.env` (or as a Fly.io secret) to see verbose output in
 2. Ask in the support server (https://discord.gg/HwTbCYC4PM, or `SUPPORT_SERVER_URL` if you set your own) with the `/diagnostics` output.
 3. Or open an issue on the repository with the error, environment (local/fly), and steps to reproduce. Security problems go through [SECURITY.md](./SECURITY.md) instead.
 
-The website has a shorter guide at https://aegisdeno.fly.dev/troubleshooting.
+The website has a shorter guide at https://aegis-bot-live.fly.dev/troubleshooting.

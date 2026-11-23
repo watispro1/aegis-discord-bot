@@ -25,7 +25,7 @@ export async function smokeLaterSections({ origin, csp, dashHtml, homeHtml, feed
   for (const [name, html] of [["terms", termsHtml], ["privacy", privacyHtml]] as [string, string][]) {
     check(`${name} last updated November 20, 2026`, html.includes("Last updated: <time datetime=\"2026-11-20\">November 20, 2026</time>"));
     check(`${name} uses CONTACT_EMAIL when set`, html.includes("mailto:legal@example.com"));
-    check(`${name} has no invented fly.dev inbox`, !html.includes("support@aegisdeno.fly.dev"));
+    check(`${name} has no invented fly.dev inbox`, !html.includes("support@aegis-bot-live.fly.dev"));
   }
   check("privacy lists the dashboard audit retention", privacyHtml.includes("180 days"));
   const typo = await fetch(origin + "/comands");

@@ -10,16 +10,16 @@ review cases and change settings in a web dashboard.
 
 | | |
 | --- | --- |
-| Website | https://aegisdeno.fly.dev |
+| Website | https://aegis-bot-live.fly.dev |
 | Add to Discord | the **Add to Discord** button on the website |
-| Command reference | https://aegisdeno.fly.dev/commands |
-| Web dashboard | https://aegisdeno.fly.dev/dashboard |
-| Docs and FAQ | https://aegisdeno.fly.dev/docs |
-| Status | https://aegisdeno.fly.dev/status |
-| Why Aegis | https://aegisdeno.fly.dev/why |
-| Roadmap | https://aegisdeno.fly.dev/roadmap |
+| Command reference | https://aegis-bot-live.fly.dev/commands |
+| Web dashboard | https://aegis-bot-live.fly.dev/dashboard |
+| Docs and FAQ | https://aegis-bot-live.fly.dev/docs |
+| Status | https://aegis-bot-live.fly.dev/status |
+| Why Aegis | https://aegis-bot-live.fly.dev/why |
+| Roadmap | https://aegis-bot-live.fly.dev/roadmap |
 | Support server | https://discord.gg/HwTbCYC4PM |
-| Security | https://aegisdeno.fly.dev/security (report privately, see [`SECURITY.md`](./SECURITY.md)) |
+| Security | https://aegis-bot-live.fly.dev/security (report privately, see [`SECURITY.md`](./SECURITY.md)) |
 | Current version | bot 3.15.0, dashboard 2.1.0 |
 
 > **Self-hosting and the source.** The source code is public so it can be read
@@ -27,7 +27,7 @@ review cases and change settings in a web dashboard.
 > running your own copy, public or private, needs written permission from the
 > maintainer (see [Licence](#licence), the [`LICENSE`](./LICENSE) file and
 > section "Source code and licence" of the
-> [Terms](https://aegisdeno.fly.dev/terms#source)). Using the bot in your server
+> [Terms](https://aegis-bot-live.fly.dev/terms#source)). Using the bot in your server
 > does not give you any rights to the code, name or branding.
 
 ## Contents
@@ -43,7 +43,7 @@ review cases and change settings in a web dashboard.
 ## What it does
 
 Every command, option and permission is listed on the
-[commands page](https://aegisdeno.fly.dev/commands), which is generated from the
+[commands page](https://aegis-bot-live.fly.dev/commands), which is generated from the
 command definitions in `src/commands`, so it always matches what the bot
 registers. In short:
 
@@ -143,7 +143,7 @@ stored in MongoDB and restored after a restart. Starboard posts, ModMail relays
 and ticket transcripts leave out media Discord flags as explicit, gore or
 self-harm unless the channel is age-restricted (`/config media-safety`).
 
-**Web dashboard.** At [`/dashboard`](https://aegisdeno.fly.dev/dashboard),
+**Web dashboard.** At [`/dashboard`](https://aegis-bot-live.fly.dev/dashboard),
 people with Manage Server or Administrator log in with Discord (`identify` and
 `guilds` scopes only) to see a server overview with a first-run Get started
 checklist and recent activity, browse and filter cases, edit a reason or revoke
@@ -154,8 +154,8 @@ community settings. An Activity page shows who changed what. Everything it does
 is also available as a slash command.
 
 What the bot and dashboard store, and for how long, is in the
-[privacy policy](https://aegisdeno.fly.dev/privacy). The rules for using them
-are in the [terms of service](https://aegisdeno.fly.dev/terms).
+[privacy policy](https://aegis-bot-live.fly.dev/privacy). The rules for using them
+are in the [terms of service](https://aegis-bot-live.fly.dev/terms).
 
 ## Permissions
 
@@ -179,7 +179,7 @@ A lock needs **Manage Roles** (shown as *Manage Permissions* in a channel's
 settings), plus View Channel and Send Messages in that channel, not Manage
 Channels. Members running `/lock` need Manage Channels. `/diagnostics` lists
 anything Aegis is missing. The full table is on the
-[docs page](https://aegisdeno.fly.dev/docs#permissions-bot).
+[docs page](https://aegis-bot-live.fly.dev/docs#permissions-bot).
 
 ## Running it yourself
 
@@ -224,7 +224,7 @@ Fill in `.env`. Every variable the code reads:
 | `CONTACT_EMAIL` | no | Email shown on the terms and privacy pages. Without it they point to the support server and GitHub issues. |
 | `DISCORD_CLIENT_SECRET` | for the dashboard | OAuth2 client secret from the Developer Portal. |
 | `DASHBOARD_SESSION_SECRET` | for the dashboard | At least 32 characters; signs session cookies and CSRF tokens. Generate with `openssl rand -hex 32`. |
-| `DASHBOARD_REDIRECT_URI` | no | Must match a redirect under OAuth2 in the Developer Portal. Defaults to `https://aegisdeno.fly.dev/dashboard/callback`; locally use `http://localhost:3000/dashboard/callback`. |
+| `DASHBOARD_REDIRECT_URI` | no | Must match a redirect under OAuth2 in the Developer Portal. Defaults to `https://aegis-bot-live.fly.dev/dashboard/callback`; locally use `http://localhost:3000/dashboard/callback`. |
 | `TOPGG_TOKEN` | no | Posts the server count to Top.gg every 30 minutes. |
 | `TOPGG_WEBHOOK_AUTH` | no | Shared secret for the Top.gg vote webhook. The webhook answers 503 until it is set. |
 
@@ -316,13 +316,13 @@ by Express, with no framework and no build step for the front end.
 ## Project documents
 
 - [`CHANGELOG.md`](./CHANGELOG.md): bot releases (also at
-  https://aegisdeno.fly.dev/changelog and as an Atom feed at `/changelog.xml`).
+  https://aegis-bot-live.fly.dev/changelog and as an Atom feed at `/changelog.xml`).
 - [`DASHBOARD_CHANGELOG.md`](./DASHBOARD_CHANGELOG.md): dashboard releases
-  (https://aegisdeno.fly.dev/dashboard/changelog).
+  (https://aegis-bot-live.fly.dev/dashboard/changelog).
 - [`CONTRIBUTING.md`](./CONTRIBUTING.md): setup, branches, sign-off, tests and
   changelog rules.
 - [`SECURITY.md`](./SECURITY.md): how to report a vulnerability privately
-  (short version at https://aegisdeno.fly.dev/security).
+  (short version at https://aegis-bot-live.fly.dev/security).
 - [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md): Contributor Covenant 2.1.
 - [`DEPLOYMENT.md`](./DEPLOYMENT.md), [`OPERATIONAL.md`](./OPERATIONAL.md) and
   [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md): deploying, running and fixing
@@ -330,8 +330,8 @@ by Express, with no framework and no build step for the front end.
 - [`server.md`](./server.md): the setup playbook for the official support
   server.
 - [`LICENSE`](./LICENSE): the proprietary licence.
-- [Terms of Service](https://aegisdeno.fly.dev/terms) and
-  [Privacy Policy](https://aegisdeno.fly.dev/privacy).
+- [Terms of Service](https://aegis-bot-live.fly.dev/terms) and
+  [Privacy Policy](https://aegis-bot-live.fly.dev/privacy).
 
 ## Licence
 
@@ -340,7 +340,7 @@ and `package.json` says `"license": "UNLICENSED"`, npm's marker for code that
 is not offered under any licence. The source is public so it can be read and
 reviewed, but copying, modifying, redistributing or running your own copy,
 public or private, needs written permission from the maintainer, as section
-"Source code and licence" of the [Terms](https://aegisdeno.fly.dev/terms#source)
+"Source code and licence" of the [Terms](https://aegis-bot-live.fly.dev/terms#source)
 says. Ask in the [support server](https://discord.gg/HwTbCYC4PM) or open an
 issue.
 

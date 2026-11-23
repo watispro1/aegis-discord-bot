@@ -1,4 +1,4 @@
-app = "aegisdeno"
+app = "aegis-bot-live"
 primary_region = "dfw"
 
 [build]

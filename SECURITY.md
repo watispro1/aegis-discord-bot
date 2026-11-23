@@ -1,7 +1,7 @@
 # Security policy
 
 Thank you for helping keep Aegis and the servers that use it safe. A short
-version of this policy is on the website at https://aegisdeno.fly.dev/security.
+version of this policy is on the website at https://aegis-bot-live.fly.dev/security.
 
 ## Supported versions
 
@@ -48,7 +48,7 @@ test accounts.
 In scope:
 
 - The Aegis bot and its slash commands.
-- The website at https://aegisdeno.fly.dev, its `/api` endpoints and the web
+- The website at https://aegis-bot-live.fly.dev, its `/api` endpoints and the web
   dashboard under `/dashboard`.
 - The code in this repository.
 
@@ -92,5 +92,5 @@ be.
 - Logs redact tokens, secrets and database credentials.
 
 Machine-readable contact details are served at
-https://aegisdeno.fly.dev/.well-known/security.txt, and a short version of this
-policy is at https://aegisdeno.fly.dev/security.
+https://aegis-bot-live.fly.dev/.well-known/security.txt, and a short version of this
+policy is at https://aegis-bot-live.fly.dev/security.
